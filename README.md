@@ -63,4 +63,21 @@ Depois disso você precisará seguir esses passos:
 ###
 
 - Colar este comando no **prompt**:
-  >
+  `git clone https://github.com/LeozinGs/pokedex-api-study.git `
+  e apertar Enter.
+
+###
+
+- Esperar até terminar de clonar o repositório e instalar o **NodeJS** que trará os comandos de **npm** para nós. Ele pode ser baixado por [aqui](https://nodejs.org/en/).
+
+###
+
+- Depos de **clonar o repositório** e instalar o **NodeJS** abra a pasta do projeto com o **VsCode** (que pode ser baixado por [aqui](https://code.visualstudio.com/)) abra o terminal com o comando `ctrl + '` e digite `npm install` para instalar todas as dependências que o projeto usa.
+
+###
+
+- Assim que todas as dependências estiverem baixadas, basta dar o comando `npm run dev` no mesmo console que você usou para baixar as dependências e clicar no link em azul que aparecerá como http://localhost:(algum numero)/
+
+###
+
+E pronto, o projeto está clonado e rodando direto de sua máquina.
