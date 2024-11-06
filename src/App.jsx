@@ -6,6 +6,7 @@ import backgroundDoodle from './assets/pokemon-doodle.png';
 import Banner from './components/Banner/Banner';
 import Input from './components/Input/Input';
 import Frame from './components/Frame/Frame';
+import ContentContainer from './components/ContentContainer/ContentContainer';
 
 const App = () => {
 
@@ -170,7 +171,18 @@ const App = () => {
           :
           ''
         }
-
+        <ContentContainer
+          title={'Stats'}
+        >
+          <>
+            <li className="list-item">HP: <span>{pokeInfo.hp}</span></li>
+            <li className="list-item">AT: <span>{pokeInfo.attack}</span></li>
+            <li className="list-item">DEF: <span>{pokeInfo.defense}</span></li>
+            <li className="list-item">SPAT: <span>{pokeInfo.sp}</span></li>
+            <li className="list-item">SPDEF: <span>{pokeInfo.sd}</span></li>
+            <li className="list-item">SPEED: <span>{pokeInfo.speed}</span></li>
+          </>
+        </ContentContainer>
       </div>
     </div>
   );
