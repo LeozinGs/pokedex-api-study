@@ -1,0 +1,31 @@
+:root {
+  --clr-normal: #9fa19f;
+  --clr-fighting: #ff8000;
+  --clr-flying: #81b9ef;
+  --clr-poison: #9141cb;
+  --clr-ground: #915121;
+  --clr-rock: #afa981;
+  --clr-bug: #91a119;
+  --clr-ghost: #704170;
+  --clr-steel: #60a1b8;
+  --clr-fire: #e62829;
+  --clr-water: #297fef;
+  --clr-grass: #3fa129;
+  --clr-electric: #fac000;
+  --clr-psychic: #ef4179;
+  --clr-ice: #3dcef3;
+  --clr-dragon: #5060e1;
+  --clr-dark: #624d4e;
+  --clr-fairy: #ef70ef;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a8b8c8;
+  font-family: 'Roboto';
+}

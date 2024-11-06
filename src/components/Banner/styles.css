@@ -1,0 +1,15 @@
+.banner {
+    width: 100%;
+    background-image: url(../../assets/pokemon-doodle.png);
+    background-position: center;
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.overlay {
+    border-image: 1 fill linear-gradient(90deg, rgba(93, 185, 240, 0.6138830532212884) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.logo {
+    max-width: 50%;
+}
