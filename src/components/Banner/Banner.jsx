@@ -5,6 +5,7 @@ const Banner = ({ image, children }) => {
         <div className='banner overlay'>
             <img className='logo' src={image} alt='Logo da página' />
             {children}
+
         </div>
     );
 }
