@@ -5,6 +5,7 @@
     background-color: papayawhip;
     border: 5px solid #365fac;
     position: relative;
+
 }
 
 .frame::after {
