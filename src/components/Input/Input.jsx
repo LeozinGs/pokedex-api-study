@@ -7,7 +7,7 @@ const Input = ({ children, getValue, submit }) => {
             <div className="input_container">
                 <input id="input" type="text" className='input' onChange={getValue} />
                 <button className='left' onClick={submit}>🔍︎</button>
-                <div className='right'></div>
+                <div className='right'> </div>
             </div>
         </form>
     );

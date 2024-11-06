@@ -22,6 +22,7 @@
 
 .input_container {
     position: relative;
+    user-select: none;
 }
 
 .left {
