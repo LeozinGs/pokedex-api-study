@@ -72,7 +72,7 @@ Depois disso você precisará seguir esses passos:
 
 ###
 
-- Depos de **clonar o repositório** e instalar o **NodeJS** abra a pasta do projeto com o **VsCode** (que pode ser baixado por [aqui](https://code.visualstudio.com/)) abra o terminal com o comando `ctrl + '` e digite `npm install` para instalar todas as dependências que o projeto usa.
+- Depois de **clonar o repositório** e instalar o **NodeJS** abra a pasta do projeto com o **VsCode** (que pode ser baixado por [aqui](https://code.visualstudio.com/)) abra o terminal com o comando `ctrl + '` e digite `npm install` para instalar todas as dependências que o projeto usa.
 
 ###
 
