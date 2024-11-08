@@ -1,9 +1,8 @@
 .content-container {
     width: 70%;
     margin: 10px 0;
-    background-color: papayawhip;
-    border: 5px solid #365fac;
-    border-radius: 40px;
+    background-color: #54a1e4;
+    border-radius: 10px;
     padding: 10px 0;
     display: flex;
     flex-direction: column;
@@ -14,15 +13,12 @@
 .title {
     font-weight: 900;
     color: #fff;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #2d2d2d;
 }
 
 .content-list {
-    background: white;
     padding: 10px;
     border-radius: 20px;
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,5 +32,32 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #2d2d2d;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.list-item span {
+    color: #000;
+}
+
+.button-container {
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0;
+}
+
+.change-button {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #54a1e4;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
 }

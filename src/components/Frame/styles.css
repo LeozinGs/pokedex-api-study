@@ -1,21 +1,7 @@
 .frame {
     height: 250px;
     width: 70%;
-    border-radius: 40px;
-    background-color: papayawhip;
-    border: 5px solid #365fac;
+    border-radius: 10px;
+    background-color: #dbe4ec;
     position: relative;
-
-}
-
-.frame::after {
-    content: '';
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    border-radius: 100%;
-    background-color: rgb(194, 174, 143);
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
 }

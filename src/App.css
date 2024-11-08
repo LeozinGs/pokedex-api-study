@@ -21,7 +21,7 @@
 }
 
 .image-container img {
-  width: 150px;
+  width: 200px;
   height: auto;
   position: absolute;
   top: 40px;
@@ -85,22 +85,23 @@
 }
 
 .types {
+  width: 70%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 230px;
-  gap: 20px;
-  margin-left: 20px;
-  padding-top: 10px;
-  position: relative;
-  z-index: 29;
-  user-select: none;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 1em 0;
 }
 
-.type {
-  padding: .2rem;
+.types-container {
+  display: flex;
+  gap: 10px;
+}
+
+.types-item {
+  padding: .2rem .5em;
   border-radius: 10px;
   font-weight: 900;
   color: #fff;
   width: fit-content;
+  text-align: center;
 }
