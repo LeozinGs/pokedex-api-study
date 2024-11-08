@@ -6,6 +6,7 @@
     align-items: center;
     box-sizing: border-box;
     pointer-events: none;
+    grid-column: 1/4;
 }
 
 .loader {

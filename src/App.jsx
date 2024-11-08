@@ -135,14 +135,16 @@ const App = () => {
     setPokemonName(e.target.value);
   }
 
-  const incrementId = () => {
+  const incrementId = (e) => {
+    e.preventDefault();
     const newId = currentId + 1;
     setCurrentId(newId);
     setPokemonName(newId.toString()); // Atualiza o pokemonName com o novo ID
     pokemonSearch(newId); // Chama pokemonSearch sem passar parâmetros
   };
 
-  const decrementId = () => {
+  const decrementId = (e) => {
+    e.preventDefault();
     if (currentId > 1) {
       const newId = currentId - 1;
       setCurrentId(newId); // Atualiza o ID atual
