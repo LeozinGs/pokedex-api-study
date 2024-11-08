@@ -6,16 +6,18 @@
 }
 
 .container label {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 900;
-    color: #fff;
+    color: #ffcc01;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #2d2d2d;
+    -webkit-text-stroke-color: #365fac;
+    text-shadow: 0 1px #365FAC, -1px 0 #365FAC, -1px 2px #365FAC, -2px 1px #365FAC, -2px 3px #365FAC, -3px 2px #365FAC, -3px 4px #365FAC, -4px 3px #365FAC, -4px 5px #365FAC, -5px 4px #365FAC;
 }
 
 .input {
     width: 50vw;
-    font-size: 1.5em;
+    font-size: 2em;
+    padding: .1em .2em;
     outline: none;
     border: 2px solid #365fac;
 }
@@ -27,13 +29,13 @@
 
 .left {
     width: 40px;
-    height: 2.38em;
+    height: 3.6em;
     background-color: #365fac;
     border: none;
     position: absolute;
     left: -39px;
     top: 0;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 25px 0px 0px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,10 +46,10 @@
 
 .right {
     width: 40px;
-    height: 2em;
+    height: 3em;
     background-color: #365fac;
     position: absolute;
     right: -39px;
     top: 0;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 25px 25px 0px;
 }
